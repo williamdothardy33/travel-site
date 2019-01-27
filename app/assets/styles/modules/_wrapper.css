@@ -1,0 +1,28 @@
+.wrapper {
+    overflow: hidden;
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+    max-width: 77.25rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    &--medium {
+        max-width: 60.875rem;
+    }
+
+    .wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    
+
+    &--b-margin {
+        margin-bottom: 1rem;
+
+        @mixin atSmall {
+            margin-bottom: 3.875rem;
+        }
+        
+    }
+}
