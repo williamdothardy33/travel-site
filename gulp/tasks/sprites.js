@@ -40,7 +40,7 @@ gulp.task('copySpriteCSS', ['createSprite'], () => {
 
 gulp.task('cleanUp', ['copySpriteCSS', 'copySpriteGraphic'], () => {
     return del(['./app/temp/sprite']);
-})
+});
 
 gulp.task('icons', ['cleanStart', 'createSprite', 'copySpriteGraphic', 'copySpriteCSS', 'cleanUp']);
 
