@@ -1092,4 +1092,15 @@ a {
         background-color: transparent
     }
     }
-
+.hide {
+    opacity: 0;
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+    -webkit-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+}
+.hide--to-show {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    }

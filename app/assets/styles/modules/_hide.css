@@ -1,0 +1,10 @@
+.hide {
+    opacity: 0;
+    transform: scale(1.15);
+    transition: all 1.5s ease-out;
+
+    &--to-show {
+    opacity: 1;
+    transform: scale(1);
+    }
+}
